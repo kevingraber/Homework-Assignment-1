@@ -182,3 +182,81 @@ table img {
 .scale:hover {
 	transform: scale(1.05,1.05);
 }
+
+.imageText {
+	width:273px;
+	background-color:#4aaaa5;
+	text-align:center;
+	position: absolute;
+	left:35px;
+	top:255px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding-top:15px;
+	padding-bottom:15px;
+	color:white;
+}
+
+.imageText2 {
+	width:273px;
+	background-color:#4aaaa5;
+	text-align:center;
+	position: absolute;
+	left:342px;
+	top:255px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding-top:15px;
+	padding-bottom:15px;
+	color:white;
+}
+
+.imageText3 {
+	width:273px;
+	background-color:#4aaaa5;
+	text-align:center;
+	position: absolute;
+	left:342px;
+	top:500px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding-top:15px;
+	padding-bottom:15px;
+	color:white;
+}
+
+.imageText4 {
+	width:273px;
+	background-color:#4aaaa5;
+	text-align:center;
+	position: absolute;
+	left:35px;
+	top:500px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding-top:15px;
+	padding-bottom:15px;
+	color:white;
+}
+
+.imageText5 {
+	width:273px;
+	background-color:#4aaaa5;
+	text-align:center;
+	position: absolute;
+	left:35px;
+	top:742px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding-top:15px;
+	padding-bottom:15px;
+	color:white;
+}
+
+.imageText6 {
+	width:273px;
+	background-color:#4aaaa5;
+	text-align:center;
+	position: absolute;
+	left:342px;
+	top:741px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding-top:15px;
+	padding-bottom:15px;
+	color:white;
+}
