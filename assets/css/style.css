@@ -50,6 +50,10 @@ body {
 	background-image: url("../images/pattern.png"); 
 }
 
+html {
+	height:100%;
+}
+
 footer {
 	background-color:#666666;
 	height:75px;
@@ -59,10 +63,12 @@ footer {
 	font-size:12px;
 	text-align:center;
 	min-width:960px;
+	clear:both;
 }
 
 footer p {
 	color:white;
+	margin-top:8px;
 	margin-bottom:0px;
 }
 
@@ -89,18 +95,12 @@ header p {
 	float:left;
 }
 
-#middle {
-	width:960px;
-	height:600px;
-}
-
-
 #mainContent {
 	background-color:white;
 	width:650px;
-	height:500px;
 	position:relative;
-	top:30px;
+	margin-top:30px;
+	margin-bottom:30px;
 	float:left;
 	border-style: solid;
     border-width: 1px;
@@ -124,6 +124,7 @@ header p {
 
 #headerNav {
 	float:right;
+	margin-right: 50px;
 }
 
 #links img {
@@ -165,4 +166,19 @@ input {
 textarea {
 	width:610px;
 	height:150px;
+}
+
+table {
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+table img {
+	padding:15px;
+}
+
+.scale:hover {
+	transform: scale(1.05,1.05);
 }
