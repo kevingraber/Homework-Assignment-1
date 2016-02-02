@@ -168,97 +168,92 @@ textarea {
 	height:150px;
 }
 
-table {
-	margin-top:20px;
-	margin-bottom:20px;
-	margin-left:auto;
-	margin-right:auto;
-}
-
-table img {
-	padding:15px;
-}
-
 .scale:hover {
 	transform: scale(1.05,1.05);
 }
 
 .imageText {
-	width:273px;
+	width:274px;
 	background-color:#4aaaa5;
 	text-align:center;
 	position: absolute;
-	left:35px;
-	top:255px;
+	left:33px;
+	top:240px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	padding-top:15px;
 	padding-bottom:15px;
 	color:white;
+	opacity: .95;
 }
 
 .imageText2 {
-	width:273px;
+	width:274px;
 	background-color:#4aaaa5;
 	text-align:center;
 	position: absolute;
-	left:342px;
-	top:255px;
+	left:343px;
+	top:240px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	padding-top:15px;
 	padding-bottom:15px;
 	color:white;
+	opacity: .95;
 }
 
 .imageText3 {
-	width:273px;
+	width:274px;
 	background-color:#4aaaa5;
 	text-align:center;
 	position: absolute;
-	left:342px;
-	top:500px;
+	left:33px;
+	top:476px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	padding-top:15px;
 	padding-bottom:15px;
 	color:white;
+	opacity: .95;
 }
 
 .imageText4 {
-	width:273px;
+	width:274px;
 	background-color:#4aaaa5;
 	text-align:center;
 	position: absolute;
-	left:35px;
-	top:500px;
+	left:343px;
+	top:476px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	padding-top:15px;
 	padding-bottom:15px;
 	color:white;
+	opacity: .95;
 }
 
 .imageText5 {
-	width:273px;
+	width:274px;
 	background-color:#4aaaa5;
 	text-align:center;
 	position: absolute;
-	left:35px;
-	top:742px;
+	left:33px;
+	top:710px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	padding-top:15px;
 	padding-bottom:15px;
 	color:white;
+	opacity: .95;
 }
 
 .imageText6 {
-	width:273px;
+	width:274px;
 	background-color:#4aaaa5;
 	text-align:center;
 	position: absolute;
-	left:342px;
-	top:741px;
+	left:343px;
+	top:710px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	padding-top:15px;
 	padding-bottom:15px;
 	color:white;
+	opacity: .95;
 }
 
 #submitButton {
@@ -272,6 +267,38 @@ table img {
 	cursor:pointer;
 }
 
-#submitButton:active {
+#submitButton:hover {
 	background-color:#1C403E;
+}
+
+.left {
+	float:left;
+	margin-left: 33px;
+	margin-bottom: 13px;
+	margin-top:13px;
+	opacity: .8
+}
+
+.right {
+	float:right;
+	margin-right: 33px;
+	margin-bottom: 13px;
+	margin-top:13px;
+	opacity: .8
+}
+
+.left:hover {
+	opacity:1;
+}
+
+.right:hover {
+	opacity:1;
+}
+
+.top {
+	margin-top:25px;
+}
+
+.bottom {
+	margin-bottom:25px;
 }
